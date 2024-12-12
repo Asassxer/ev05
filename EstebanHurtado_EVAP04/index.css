@@ -1,0 +1,488 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Aplicar fuentes a toda la página */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo para los títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    /* Color del logotipo */
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 2rem 1rem;
+}
+
+section.container {
+    margin-top: 2rem;
+}
+
+h2 {
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.image-container {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Clase para fondo verde */
+.bg-green {
+    background-color: #28a745;
+    /* Verde */
+    padding: 1rem 0;
+    /* Añadir padding */
+    width: 100%;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-icon {
+    margin: 0 10px;
+    /* Espacio entre iconos */
+    color: white;
+    /* Color blanco para los iconos */
+    font-size: 1.5rem;
+    /* Tamaño del icono */
+}
+
+.social-icon:hover {
+    color: #ffffff;
+    /* Mantener el color blanco al pasar el ratón */
+}
+
+
+/* Clase para fondo beige */
+.bg-beige {
+    background-color: #f5f5dc;
+    /* Beige */
+}
+
+/* Clase para texto verde */
+.text-green {
+    color: #28a745;
+    /* Verde */
+}
+
+/* Estilos para los iconos de navegación */
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    /* Color del texto de los enlaces de navegación */
+}
+
+.nav-link i {
+    margin-right: 5px;
+    /* Espacio entre el icono y el texto */
+    color: #000000;
+    /* Color del icono */
+}
+
+
+.embed-responsive {
+    background-color: #28a745;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.bg-image {
+    background-image: url('/images/banner.jpg');
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 1rem;
+    color: #ffffff;
+    /* Color blanco para el texto */
+    font-family: 'Georgia', serif;
+    /* Cambiar la fuente a Georgia */
+}
+
+/* Clase para fondo blanco */
+.bg-white {
+    background-color: #ffffff;
+    /* Blanco */
+    padding: 2rem 1rem;
+    /* Añadir padding */
+    width: 100%;
+    color: #8B4513;
+    /* Marrón para el texto */
+}
+
+/* Clase para fondo beige */
+.content-beige {
+    background-color: #f5f5dc;
+    /* Beige */
+    padding: 1rem;
+    border-radius: 8px;
+    /* Opcional, para esquinas redondeadas */
+}
+
+/* Estilos para los contenedores de imagen */
+.image-container {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Asegurar que las imágenes sean responsivas */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para el título marrón */
+.title-brown {
+    color: #8B4513;
+    /* Marrón */
+    margin-bottom: 2rem;
+    /* Separación del título */
+    margin-top: 2rem;
+}
+
+
+.btn-green {
+    background-color: #28a745;
+    /* Color verde */
+    color: white;
+    /* Color del texto */
+    border: none;
+    /* Sin bordes */
+    border-radius: 25px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Tamaño del botón */
+    text-decoration: none;
+    /* Sin subrayado */
+    display: inline-block;
+    /* Mantiene el botón en línea */
+}
+
+.btn-green:hover {
+    background-color: #218838;
+    /* Color verde más oscuro al pasar el ratón */
+}
+
+/* Clase para fondo blanco */
+.bg-white {
+    background-color: #ffffff;
+    /* Blanco */
+    padding: 2rem 1rem;
+    /* Añadir padding */
+    width: 100%;
+    color: #8B4513;
+    /* Marrón para el texto */
+}
+
+/* Clase para fondo marrón */
+.bg-brown {
+    background-color: #8B4513;
+    /* Marrón */
+    padding: 2rem 1rem;
+    /* Añadir padding */
+    width: 100%;
+    color: white;
+    /* Color del texto */
+}
+
+/* Estilos para los contenedores de imagen */
+.image-container {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Asegurar que las imágenes sean responsivas */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos personalizados para los botones marrones */
+.btn-brown {
+    background-color: #8B4513;
+    /* Marrón */
+    color: white;
+    /* Color del texto */
+    border: 2px solid white;
+    /* Borde blanco */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    /* Tamaño del botón */
+    text-decoration: none;
+    /* Sin subrayado */
+    display: inline-block;
+    /* Mantiene el botón en línea */
+    margin-top: 10px;
+    /* Espacio entre la descripción y el botón */
+}
+
+.btn-brown:hover {
+    background-color: #5A2D0C;
+    /* Marrón más oscuro al pasar el ratón */
+}
+
+/* Estilo para separar el título de los platos */
+.title-separator {
+    margin-bottom: 2rem;
+    color: #8B4513;
+    /* Color marrón para el título */
+}
+
+/* Estilo para el título marrón */
+.title-brown {
+    color: #8B4513;
+    /* Marrón */
+    margin-bottom: 2rem;
+    /* Separación del título */
+}
+
+/* Estilos para la tabla */
+.table-custom {
+    border: 2px solid #8B4513;
+    /* Borde marrón para la tabla */
+    color: #8B4513;
+    /* Color marrón para el texto */
+}
+
+.table-custom th,
+.table-custom td {
+    border: 2px solid #8B4513;
+    /* Borde marrón para las celdas */
+    padding: 1rem;
+    text-align: center;
+}
+
+.table-custom thead th {
+    background-color: #f8f9fa;
+    /* Fondo claro para el encabezado */
+}
+
+.table-custom tbody td {
+    background-color: #ffffff;
+    /* Fondo blanco para las celdas */
+}
+
+/* Estilo para el título centrado */
+.title-center {
+    text-align: center;
+    color: #8B4513;
+    /* Marrón */
+    margin-bottom: 2rem;
+    /* Espacio debajo del título */
+}
+
+/* Estilo para el contenedor */
+.container-fluid {
+    padding: 0;
+    /* Añadir padding */
+    color: #8B4513;
+    /* Marrón para todo el texto en esta sección */
+}
+
+
+/* Estilos específicos para el formulario */
+.form-brown {
+    color: #8B4513;
+    /* Marrón para el texto del formulario */
+}
+
+.form-control {
+    color: #000000;
+    /* Color negro para el texto de los inputs */
+}
+
+/* Estilos personalizados para el botón */
+.btn-brown-outline {
+    background-color: white;
+    /* Fondo blanco */
+    border: 2px solid #8B4513;
+    /* Borde marrón */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    color: #8B4513;
+    /* Texto marrón */
+    padding: 10px 20px;
+    /* Tamaño del botón */
+    text-decoration: none;
+    /* Sin subrayado */
+    display: inline-block;
+    /* Mantiene el botón en línea */
+    margin-top: 10px;
+    /* Espacio entre la descripción y el botón */
+}
+
+.btn-brown-outline:hover {
+    background-color: #8B4513;
+    /* Fondo marrón al pasar el ratón */
+    color: white;
+    /* Texto blanco al pasar el ratón */
+}
+
+/* Clase para fondo marrón */
+.bg-brown {
+    background-color: #8B4513;
+    /* Marrón */
+    padding: 1rem 0;
+    /* Añadir padding */
+    width: 100%;
+    color: white;
+    /* Color del texto */
+}
+
+/* Estilo para el texto del pie de página */
+.footer-text {
+    color: white;
+    /* Color blanco para el texto */
+    margin: 0;
+    /* Sin margen */
+    font-size: 1rem;
+    /* Tamaño de fuente */
+}
+/*---------------------Carta*/
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#navbar-carta {
+    background-color: #f8f9fa;
+}
+
+#navbar-carta .navbar-brand {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+}
+
+#hero-carta {
+    background-image: url('/images/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+#hero-carta .left {
+    flex: 1;
+}
+
+#hero-carta .left h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#hero-carta .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-carta .right h2 {
+    margin: 0;
+    font-size: 2em;
+    color: rgb(241, 241, 241);
+}
+
+#hero-carta .right p {
+    margin: 10px 0;
+}
+
+#hero-carta .right a {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+}
+
+#carta-menu {
+    background-color: beige;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#carta-menu .section-title {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+}
+
+#carta-menu .section-content {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+#carta-menu a {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+}
+#carta-menu .content-right img { max-width: 50%; height: auto; }
+#tradiciones-peruanas .section-title,
+#nuestros-locales .section-title {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#tradiciones-peruanas .section-content,
+#nuestros-locales .section-content {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+#footer-carta {
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+#nuestros-locales .local {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#nuestros-locales .local:nth-child(odd) {
+    flex-direction: row;
+}
+
+#nuestros-locales .local:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#nuestros-locales .local img {
+    width: 200px;
+    height: auto;
+    margin: 0 20px;
+}
+
+#nuestros-locales .local p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}

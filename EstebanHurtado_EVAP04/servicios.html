@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siete Sopas - Carta de Menú</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Sección de Redes Sociales -->
+    <section class="social-media bg-green text-center"> <a href="https://www.facebook.com" target="_blank"
+            class="social-icon"><i class="fab fa-facebook-f"></i></a> <a href="mailto:example@gmail.com" target="_blank"
+            class="social-icon"><i class="fas fa-envelope"></i></a> <a href="https://www.instagram.com" target="_blank"
+            class="social-icon"><i class="fab fa-instagram"></i></a> <a href="https://www.twitter.com" target="_blank"
+            class="social-icon"><i class="fab fa-twitter"></i></a> </section>
+    <!-- Encabezado -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-beige">
+        <a class="navbar-brand text-green" href="#">Siete Sopas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/carta.html"><i class="fas fa-utensils"></i> Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/nosotros.html"><i class="fas fa-info-circle"></i> Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/servicios.html"><i class="fas fa-concierge-bell"></i> Servicios</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero-carta" class="hero-section d-flex">
+        <div class="left d-flex align-items-center flex-grow-1">
+            <h1>SERVICIOS</h1>
+        </div>
+        <div class="right d-flex flex-column justify-content-center align-items-end flex-grow-1">
+            <h2>Bienvenidos</h2>
+            <p>Disfruta del mejor sabor de la cocina peruana en tazones cargados de calor y amor</p> <a href="#"
+                class="btn btn-custom">Ver Info</a>
+        </div>
+    </section>
+    <!-- Carta de Menú Section -->
+    <section id="carta-menu" class="d-flex justify-content-center align-items-center py-5">
+        <div class="content-left d-flex flex-column justify-content-center align-items-center p-4">
+            <h2 class="section-title">Nosotros</h2>
+            <p class="section-content">Disfruta del mejor sabor de la cocina peruana en tazones cargados de calor y amor
+            </p> <a href="#" class="btn btn-custom">Historia</a>
+        </div>
+        <div class="content-right d-flex justify-content-center align-items-center p-4"> <img src="/images/rest4.jpg"
+                class="img-fluid" alt="Imagen representativa"> </div>
+    </section>
+    <!-- Contáctanos -->
+    <section class="container-fluid text-center">
+        <h2 class="title-center">Contáctanos</h2>
+        <div class="row">
+            <!-- Columna para la imagen -->
+            <div class="col-md-6">
+                <img src="/images/service.jpg" class="img-fluid" alt="Descripción de la imagen">
+            </div>
+            <!-- Columna para el formulario -->
+            <div class="col-md-6">
+                <form class="form-brown">
+                    <div class="form-group"> <label for="nombre">Ingresar Nombre</label> <input type="text"
+                            class="form-control" id="nombre" placeholder="Ingrese su nombre"> </div>
+                    <div class="form-group"> <label for="movil">Ingresar Móvil</label> <input type="text"
+                            class="form-control" id="movil" placeholder="Ingrese su móvil"> </div>
+                    <div class="form-group"> <label for="email">Ingresar Correo Electrónico</label> <input type="email"
+                            class="form-control" id="email" placeholder="Ingrese su correo electrónico"> </div>
+                    <div class="form-group"> <label for="comentario">Ingresar Comentarios</label> <textarea
+                            class="form-control" id="comentario" rows="3"
+                            placeholder="Ingrese sus comentarios"></textarea> </div> <button type="submit"
+                        class="btn btn-brown-outline">Ver Más</button>
+                </form>
+            </div>
+        </div>
+    </section>
+  
+    <section class="container-fluid text-center bg-white">
+        <h2 class="title-brown">Nuestros Locales</h2>
+        <div class="content-beige">
+            <p>Descripción de la misión del restaurante.</p>
+            <div class="d-flex justify-content-around flex-wrap">
+                <div class="image-container">
+                    <img src="/images/rest1.jpg" class="img-fluid" alt="Local 1">
+                    <p>Local 1</p>
+                </div>
+                <div class="image-container">
+                    <img src="/images/rest2.jpg" class="img-fluid" alt="Local 2">
+                    <p>Local 2</p>
+                </div>
+                <div class="image-container">
+                    <img src="/images/rest3.jpg" class="img-fluid" alt="Local 3">
+                    <p>Local 3</p>
+                </div>
+                <div class="image-container">
+                    <img src="/images/rest4.jpg" class="img-fluid" alt="Local 4">
+                    <p>Local 4</p>
+                </div>
+                <div class="image-container">
+                    <img src="/images/rest5.jpg" class="img-fluid" alt="Local 5">
+                    <p>Local 5</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid bg-brown text-center">
+        <p class="footer-text">Desarrollado por: Esteban Andre Hurtado del Aguila</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
